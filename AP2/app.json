@@ -1,24 +1,26 @@
 {
   "expo": {
-    "name": "AP2",
+    "name": "Vice City Motors",
     "slug": "AP2",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "scheme": "vicecitymotors",
+    "icon": "./assets/icono-app.png",
     "userInterfaceStyle": "light",
+    "plugins": ["expo-router"],
     "ios": {
       "supportsTablet": true
     },
     "android": {
       "adaptiveIcon": {
-        "backgroundColor": "#E6F4FE",
-        "foregroundImage": "./assets/android-icon-foreground.png",
-        "backgroundImage": "./assets/android-icon-background.png",
-        "monochromeImage": "./assets/android-icon-monochrome.png"
+        "backgroundColor": "#002D62",
+        "foregroundImage": "./assets/frente-icono-android.png",
+        "monochromeImage": "./assets/icono-android-monocromatico.png"
       }
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/icono-web.png",
+      "bundler": "metro"
     }
   }
 }
